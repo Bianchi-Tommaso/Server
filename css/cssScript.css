@@ -1,0 +1,64 @@
+.sfondoAzzurro
+{
+    background-color: aqua;
+    text-align: center;
+}
+
+.centro
+{
+    text-align: center;
+}
+
+.noLink, a:hover, a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.jumbotron
+{
+    background-color: #FFCC00;
+}
+
+.img
+{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 150px;
+    height: 115px;
+    
+}
+.bordo
+{
+    border-width: 1px;
+    border-color: yellow;
+    border-style: solid;
+    
+}
+
+.d-none
+{
+    display: none;
+}
+
+.bordov
+{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+.img-piccola
+{
+     margin-left: auto;
+    margin-right: auto; 
+    width: 70px;
+    height: 90px;
+}
+
+.centro
+{
+    margin-left: auto;
+    margin-right: auto; 
+}

@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" type="text/css" href="../css/cssScript.css">
+     <script type="text/javascript" src="../js/jsScript.js"></script>
+    <title>Script</title>
+  </head>
+  <body>
+      <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">SCRIPT JAVASCRIPT</h1>
+    <p class="lead">Una collezione di script  Javascript</p> 
+  </div>
+</div>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" href="#">Javascript</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="scriptJavaScript.html ">Divisori <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="indovina.html" oneclick="popup()">Indovina</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="valuta.html">Valuta</a>
+      </li>
+         <li class="nav-item">
+         <input type="color" id="favcolor" name="favcolor" style="display: none" onchange="colore()">
+      </li>
+    </ul>
+  </div>
+</nav>
+      <h1 class="text-center"> Convertitore Valuta <br> </h1>
+      <div class="card text-center centro" style="width: 18rem;">
+           <h5 class="card-title">Euro</h5>
+  <img class="card-img-top img-piccola" src="../images/unioneeuropea.png" alt="Card image cap">
+  <div class="card-body card text-center">
+     <input type="number" class="form-control" onkeyup="conversione()"   placeholder="Inserisci €" aria-label="" aria-describedby="basic-addon2" id="Euro">  
+  </div>
+</div>
+      <br>
+      <div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-sm-6" >
+    <div id="dollari" class="card text-center centro" style="width: 18rem; display: none" id="dollaro">
+           <h5 class="card-title">Dollaro Americano</h5>
+  <img class="card-img-top img-piccola" src="../images/dollaro.png" alt="Card image cap">
+  <div class="card-body card text-center">
+      <input type="number" id="dollaro" class="form-control" readonly> 
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4 col-sm-6" >
+         <div class="card text-center centro" style="width: 18rem; display: none" id="yen">
+           <h5 class="card-title">Yen</h5>
+  <img class="card-img-top img-piccola" src="../images/yen.png" alt="Card image cap">
+  <div class="card-body card text-center">
+      <input type="number" id="yen" class="form-control " readonly>   
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+         <div   class="card text-center centro" style="width: 18rem; display: none" id="sterlina"> 
+           <h5 class="card-title">Sterlina</h5>
+  <img class="card-img-top img-piccola" src="../images/bandiera-inghilterra.ong.jpg" alt="Card image cap">
+  <div class="card-body card text-center">
+      <input type="number" id="sterlina" class="form-control" readonly>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+  </body>
+  
+</html>

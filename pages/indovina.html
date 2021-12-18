@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <script type="text/javascript" src="../js/jsScript.js"></script>
+      <link rel="stylesheet" type="text/css" href="../css/cssScript.css">
+    <title>Script</title>
+  </head>
+  <body onload="popup()">
+      <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">SCRIPT JAVASCRIPT</h1>
+    <p class="lead">Una collezione di script  Javascript</p> 
+  </div>
+</div>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" href="scriptJavaScript.html">Javascript</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="scriptJavaScript.html">Divisori <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="indovina.html">Indovina</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="valuta.html" >Valuta</a>
+      </li>
+    </ul>
+  </div>
+</nav>  
+      <br>
+      <div class="container">
+  <div class="row">
+    <div class="col-6 bordo" id="colore">
+        <br>      
+<div class="input-group mb-3" id="mostra">
+  <input id="inputnumero" type="password" class="form-control" placeholder="Numero Compreso Tra 1 E 50" aria-label="" aria-describedby="basic-addon2" max="0" min="50">
+  <div class="input-group-append">
+    <button onclick="controllo()" class="btn btn-outline-secondary" type="button">Gioca</button>
+  </div>
+</div>
+        <span class="badge badge-danger center"><h3 id="cambia"></h3></span>
+    </div>
+      <br>
+      <br>
+      <p>
+       <div class="col-6 bordo">
+           <br>
+          <div id="risultato-2">     
+     <div id="nascosto" style="display: none"> 
+         <input id="inputnumero-1" type="number" class="form-control" placeholder="Indovina" aria-label="" aria-describedby="basic-addon2" max="0" min="50"> 
+  <div class="input-group-append"> 
+    <button onclick="compara()" class="btn btn-outline-secondary" type="button">Controlla</button>   
+      </div>
+           </div>
+             <h1 id="risultato-1"></h1>  </div>
+           </div>  
+      </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+
+.Dark
+{
+    --primary-color: black;
+}
+
+a, a:hover, a:focus, a:active 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.toggle 
+{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    top: 100px;
+    position: absolute;
+  }
+
+  :root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+  }
+  
+  html {
+    transition: all 0.5s ease-in;
+  }
+  
+  html.dark {
+    --primary-color: #fff;
+    --secondary-color: #333;
+  }
+  
+  html.dark {
+    background-color: #111;
+    color: var(--primary-color);
+  }
+  
